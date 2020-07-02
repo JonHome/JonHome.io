@@ -1,1 +1,22 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>blog</title><link href=/static/css/app.30790115300ab27614ce176899523b62.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.2ae2e69a05c33dfc65f8.js></script><script type=text/javascript src=/static/js/vendor.096d28cd4f5da166f9ce.js></script><script type=text/javascript src=/static/js/app.b22ce679862c47a75225.js></script></body></html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1.0">
+    <title>blog</title>
+</head>
+
+<body>
+    <div id="app" style="width:100%; height:1000; background-color:#666;" ></div>
+</body>
+<script>
+    function loadDist() {
+        location.href = './dist/index.html'
+        // document.getElementById("app").innerHTML='<object type="text/html" data="dist/index.html" ></object>';
+        console.log("loadDist")
+    }
+    loadDist()
+</script>
+
+</html>
